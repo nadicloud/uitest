@@ -1,0 +1,137 @@
+{
+  "uid" : "7afb617b2d4b799d",
+  "name" : "I can filter the risk legend {\"chart\":\"line graph\",\"fileRisk\":\"Safe\",\"filteredRisk\":\"Safe\"} @smoke @TEST-192",
+  "fullName" : "dashboard-requests-filtering-by-file-risk @dashboard-requests-filtering-by-file-risk.I can filter the risk legend {\"chart\":\"line graph\",\"fileRisk\":\"Safe\",\"filteredRisk\":\"Safe\"} @smoke @TEST-192",
+  "historyId" : "a773840a4e0b5074f05677291ea682fb",
+  "time" : {
+    "start" : 1604850799585,
+    "stop" : 1604850814740,
+    "duration" : 15155
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Within \".recharts-wrapper:nth-child(1) > .recharts-surface\" ",
+      "time" : {
+        "start" : 1604850812507,
+        "stop" : 1604850814740,
+        "duration" : 2233
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"//span[contains(.,'Safe')]\"",
+        "time" : {
+          "start" : 1604850812507,
+          "stop" : 1604850814720,
+          "duration" : 2213
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "I grab number of visible elements \"path.recharts-curve.recharts-line-curve\"",
+        "time" : {
+          "start" : 1604850814725,
+          "stop" : 1604850814729,
+          "duration" : 4
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "I assert equal , 1, \"The number of filtered risks displayed (0) is NOT as expected\"",
+        "time" : {
+          "start" : 1604850814730,
+          "stop" : 1604850814739,
+          "duration" : 9
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@TEST-192"
+  }, {
+    "name" : "tag",
+    "value" : "@dashboard-requests-filtering-by-file-risk"
+  }, {
+    "name" : "tag",
+    "value" : "@smoke"
+  }, {
+    "name" : "suite",
+    "value" : "dashboard-requests-filtering-by-file-risk @dashboard-requests-filtering-by-file-risk"
+  }, {
+    "name" : "testClass",
+    "value" : "dashboard-requests-filtering-by-file-risk @dashboard-requests-filtering-by-file-risk"
+  }, {
+    "name" : "testMethod",
+    "value" : "I can filter the risk legend {\"chart\":\"line graph\",\"fileRisk\":\"Safe\",\"filteredRisk\":\"Safe\"} @smoke @TEST-192"
+  }, {
+    "name" : "package",
+    "value" : "dashboard-requests-filtering-by-file-risk @dashboard-requests-filtering-by-file-risk"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f24d35af1a362a38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604850667596,
+        "stop" : 1604850683602,
+        "duration" : 16006
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test passed",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ "@smoke", "@TEST-192", "@dashboard-requests-filtering-by-file-risk" ]
+  },
+  "source" : "7afb617b2d4b799d.json",
+  "parameterValues" : [ ]
+}
