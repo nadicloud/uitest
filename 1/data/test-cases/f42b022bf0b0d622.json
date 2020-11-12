@@ -1,0 +1,65 @@
+{
+  "uid" : "f42b022bf0b0d622",
+  "name" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+  "fullName" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type.filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+  "historyId" : "3c4aff7a45e1a16a4c2ae16d9f3ef9f",
+  "time" : {
+    "start" : 1605218886385,
+    "stop" : 1605218886767,
+    "duration" : 382
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed to launch the browser process!\n                [4177:4177:1112/220806.571507:ERROR:browser_main_loop.cc(1434)] Unable to open X display.\n                \n                \n                TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md\n                ",
+  "statusTrace" : "Error: Failed to launch the browser process!\n                [4177:4177:1112/220806.571507:ERROR:browser_main_loop.cc(1434)] Unable to open X display.\n                \n                \n                TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md\n                \n                    at onClose (/home/runner/work/uitest/uitest/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:193:20)\n                    at ChildProcess.<anonymous> (/home/runner/work/uitest/uitest/node_modules/puppeteer/lib/cjs/puppeteer/node/BrowserRunner.js:184:79)\n                    at ChildProcess.emit (events.js:327:22)\n                    at Process.ChildProcess._handle.onexit (internal/child_process.js:277:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "testClass",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "testMethod",
+    "value" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163"
+  }, {
+    "name" : "package",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b5f72ea5dd2c86fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605103287272,
+        "stop" : 1605103315919,
+        "duration" : 28647
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Infrastructure problems",
+      "messageRegex" : ".*",
+      "matchedStatuses" : [ "broken", "failed" ],
+      "flaky" : false
+    }, {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f42b022bf0b0d622.json",
+  "parameterValues" : [ ]
+}

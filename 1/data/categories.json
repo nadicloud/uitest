@@ -1,0 +1,119 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test passed",
+    "children" : [ {
+      "children" : [ {
+        "name" : "filter the log by file type {\"filter\":\"xls\",\"filteredFile\":\"Xls\"} @TEST-163",
+        "uid" : "d43633eb2f5220c2",
+        "parentUid" : "9c80a0c1559ab612131af073d4d469b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605103316609,
+          "stop" : 1605103345281,
+          "duration" : 28672
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "filter the log by file type {\"filter\":\"pptx\",\"filteredFile\":\"Pptx\"} @TEST-163",
+        "uid" : "6f4540a506884f2f",
+        "parentUid" : "9c80a0c1559ab612131af073d4d469b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605103346564,
+          "stop" : 1605103375100,
+          "duration" : 28536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "filter the log by file type {\"filter\":\"rtf\",\"filteredFile\":\"Rtf\"} @TEST-163",
+        "uid" : "4aa1e2a0866d78c5",
+        "parentUid" : "9c80a0c1559ab612131af073d4d469b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605103375928,
+          "stop" : 1605103404270,
+          "duration" : 28342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "filter the log by file type {\"filter\":\"png\",\"filteredFile\":\"Png\"} @TEST-163",
+        "uid" : "3875a4100c4e9e93",
+        "parentUid" : "9c80a0c1559ab612131af073d4d469b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605103404923,
+          "stop" : 1605103433165,
+          "duration" : 28242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "filter the log by file type {\"filter\":\"pdf\",\"filteredFile\":\"Pdf\"} @TEST-163",
+        "uid" : "cff9bb8f444ab226",
+        "parentUid" : "9c80a0c1559ab612131af073d4d469b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605103433776,
+          "stop" : 1605103462112,
+          "duration" : 28336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c80a0c1559ab612131af073d4d469b3"
+    } ],
+    "uid" : "bf711d51452b6be752b9682737c0edfd"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Failed to launch the browser process!\n                [4177:4177:1112/220806.571507:ERROR:browser_main_loop.cc(1434)] Unable to open X display.\n                \n                \n                TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md\n                ",
+      "children" : [ {
+        "name" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+        "uid" : "f42b022bf0b0d622",
+        "parentUid" : "5f71ddae05c35d671078f575824899ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605218886385,
+          "stop" : 1605218886767,
+          "duration" : 382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f71ddae05c35d671078f575824899ca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Infrastructure problems",
+    "children" : [ {
+      "name" : "Failed to launch the browser process!\n                [4177:4177:1112/220806.571507:ERROR:browser_main_loop.cc(1434)] Unable to open X display.\n                \n                \n                TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md\n                ",
+      "children" : [ {
+        "name" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+        "uid" : "f42b022bf0b0d622",
+        "parentUid" : "11ba369d8ac6d1bbf0b379fe7255eb3b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605218886385,
+          "stop" : 1605218886767,
+          "duration" : 382
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "11ba369d8ac6d1bbf0b379fe7255eb3b"
+    } ],
+    "uid" : "280a13d31e49bebc16a96b51fd556410"
+  } ],
+  "name" : "categories"
+}

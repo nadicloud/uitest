@@ -1,0 +1,10 @@
+[ {
+  "buildOrder" : 1,
+  "reportUrl" : "https://nadicloud.github.io/uitest/1/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "Product defects" : 1,
+    "Test passed" : 5,
+    "Infrastructure problems" : 1
+  }
+} ]
