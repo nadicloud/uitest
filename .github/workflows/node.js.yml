@@ -11,6 +11,7 @@ jobs:
 
     strategy:
       matrix:
+        package: [allure-commandline]
         node-version: [13.x]
 
     steps:
@@ -20,7 +21,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: |
-          npm install          
+          npm install 
+          npm install -g allure-commandline --save-dev         
           npm test
         env:
           CI: true
