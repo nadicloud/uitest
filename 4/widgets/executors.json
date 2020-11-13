@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://nadicloud.github.io/uitest",
+  "buildOrder" : 4,
+  "buildName" : "GitHub Actions Run #361618497",
+  "buildUrl" : "https://github.com/nadicloud/uitest/actions/runs/361618497",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://nadicloud.github.io/uitest/4/"
+} ]

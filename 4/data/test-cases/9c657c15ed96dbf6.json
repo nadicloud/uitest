@@ -1,0 +1,106 @@
+{
+  "uid" : "9c657c15ed96dbf6",
+  "name" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+  "fullName" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type.filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+  "historyId" : "3c4aff7a45e1a16a4c2ae16d9f3ef9f",
+  "time" : {
+    "start" : 1605272548804,
+    "stop" : 1605272551093,
+    "duration" : 2289
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "net::ERR_CONNECTION_REFUSED at http://localhost:8080",
+  "statusTrace" : "Error: net::ERR_CONNECTION_REFUSED at http://localhost:8080\n                    at navigate (/home/runner/work/uitest/uitest/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:115:23)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at async FrameManager.navigateFrame (/home/runner/work/uitest/uitest/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:90:21)\n                    at async Frame.goto (/home/runner/work/uitest/uitest/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:417:16)\n                    at async Page.goto (/home/runner/work/uitest/uitest/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:784:16)\n                    at async Puppeteer.amOnPage (/home/runner/work/uitest/uitest/node_modules/codeceptjs/lib/helper/Puppeteer.js:613:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "testClass",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "testMethod",
+    "value" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163"
+  }, {
+    "name" : "package",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e15d1ae646cde47b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605103287272,
+        "stop" : 1605103315919,
+        "duration" : 28647
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Infrastructure problems",
+      "messageRegex" : ".*",
+      "matchedStatuses" : [ "broken", "failed" ],
+      "flaky" : false
+    }, {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "4f1d1f0523544f22",
+        "reportUrl" : "https://nadicloud.github.io/uitest/3//#testresult/4f1d1f0523544f22",
+        "status" : "failed",
+        "statusDetails" : "net::ERR_CONNECTION_REFUSED at http://localhost:8080",
+        "time" : {
+          "start" : 1605272057336,
+          "stop" : 1605272059617,
+          "duration" : 2281
+        }
+      }, {
+        "uid" : "5b339ba4ddec5774",
+        "reportUrl" : "https://nadicloud.github.io/uitest/2//#testresult/5b339ba4ddec5774",
+        "status" : "failed",
+        "statusDetails" : "net::ERR_CONNECTION_REFUSED at http://localhost:8080",
+        "time" : {
+          "start" : 1605271922586,
+          "stop" : 1605271924866,
+          "duration" : 2280
+        }
+      }, {
+        "uid" : "f42b022bf0b0d622",
+        "reportUrl" : "https://nadicloud.github.io/uitest/1//#testresult/f42b022bf0b0d622",
+        "status" : "failed",
+        "statusDetails" : "Failed to launch the browser process!\n                [4177:4177:1112/220806.571507:ERROR:browser_main_loop.cc(1434)] Unable to open X display.\n                \n                \n                TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md\n                ",
+        "time" : {
+          "start" : 1605218886385,
+          "stop" : 1605218886767,
+          "duration" : 382
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9c657c15ed96dbf6.json",
+  "parameterValues" : [ ]
+}
