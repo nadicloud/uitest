@@ -22,6 +22,7 @@ jobs:
         if: always()
         run: |
           npm install
+          npm install -g allure-commandline --save-dev
       - name: Check code style
         if: always()
         run: |
