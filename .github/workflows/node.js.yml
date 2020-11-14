@@ -20,10 +20,16 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: |
-          npm install        
+          
+      - name: Install dependencies
+        if: always()
+        run: |
+          npm install
           npm install -g allure-commandline --save-dev
-          run: npm test
-        continue-on-error: true  
+     
+      - name: Run Test
+        if: always()
+        run: npm test
+        continue-on-error: true
         env:
           CI: true
