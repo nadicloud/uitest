@@ -1,11 +1,10 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
-    branches: [ main ]
-      
+    branches:
+      - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -20,16 +19,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-          
-      - name: Install dependencies
-        if: always()
-        run: |
-          npm install
-          npm install -g allure-commandline --save-dev
-     
-      - name: Run Test
-        if: always()
-        run: npm test
-        continue-on-error: true
+      - run: |
+          npm install    
+          npm install -g allure-commandline --save-dev      
+          npx test
         env:
           CI: true
