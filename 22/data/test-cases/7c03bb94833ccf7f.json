@@ -1,0 +1,426 @@
+{
+  "uid" : "7c03bb94833ccf7f",
+  "name" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+  "fullName" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type.filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+  "historyId" : "3c4aff7a45e1a16a4c2ae16d9f3ef9f",
+  "time" : {
+    "start" : 1605441300540,
+    "stop" : 1605441329170,
+    "duration" : 28630
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "homePage: clickRequestsHistory ",
+      "time" : {
+        "start" : 1605441310560,
+        "stop" : 1605441312902,
+        "duration" : 2342
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"a[href*='request-history'] > div\"",
+        "time" : {
+          "start" : 1605441310560,
+          "stop" : 1605441312798,
+          "duration" : 2238
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Within \"div[class*='Filters_wrap__']\" ",
+      "time" : {
+        "start" : 1605441312902,
+        "stop" : 1605441317547,
+        "duration" : 4645
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click button[class*='Filters_moreFilters__']",
+        "time" : {
+          "start" : 1605441312902,
+          "stop" : 1605441315114,
+          "duration" : 2212
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I wait for clickable \"//button[contains(.,'+ Add Filter')]\"",
+        "time" : {
+          "start" : 1605441315117,
+          "stop" : 1605441315126,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \"//button[contains(.,'+ Add Filter')]\"",
+        "time" : {
+          "start" : 1605441315226,
+          "stop" : 1605441317442,
+          "duration" : 2216
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Within \"div[class*='Filters_popup__']\" ",
+      "time" : {
+        "start" : 1605441317547,
+        "stop" : 1605441319907,
+        "duration" : 2360
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"button:nth-child(1) > p\"",
+        "time" : {
+          "start" : 1605441317547,
+          "stop" : 1605441319806,
+          "duration" : 2259
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Filter to set is: docx",
+        "time" : {
+          "start" : 1605441319807,
+          "stop" : 1605441319807,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "requesthistoryPage: selectFileType \"docx\"",
+      "time" : {
+        "start" : 1605441319907,
+        "stop" : 1605441322148,
+        "duration" : 2241
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"//span[contains(.,'docx')]/parent::label/span[1]/span/input\"",
+        "time" : {
+          "start" : 1605441319907,
+          "stop" : 1605441322148,
+          "duration" : 2241
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "requesthistoryPage: closeFilterPopup ",
+      "time" : {
+        "start" : 1605441322148,
+        "stop" : 1605441324158,
+        "duration" : 2010
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I move cursor to \"#root\"",
+        "time" : {
+          "start" : 1605441322148,
+          "stop" : 1605441324157,
+          "duration" : 2009
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "requesthistoryPage: selectFileType \"docx\"",
+      "time" : {
+        "start" : 1605441324158,
+        "stop" : 1605441329164,
+        "duration" : 5006
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1605441324158,
+          "stop" : 1605441329164,
+          "duration" : 5006
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "requesthistoryPage: checkFileTypeValues \"Docx\", 3",
+      "time" : {
+        "start" : 1605441329164,
+        "stop" : 1605441329170,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I check row \"Docx\", 3",
+        "time" : {
+          "start" : 1605441329165,
+          "stop" : 1605441329170,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@TEST-163"
+  }, {
+    "name" : "tag",
+    "value" : "@request-history-filtering-by-file-type"
+  }, {
+    "name" : "suite",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "testClass",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "testMethod",
+    "value" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163"
+  }, {
+    "name" : "package",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9d0d447e12251fd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605103287272,
+        "stop" : 1605103315919,
+        "duration" : 28647
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test passed",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 10
+      },
+      "items" : [ {
+        "uid" : "12e9507d94d5e22",
+        "reportUrl" : "https://nadicloud.github.io/uitest/21//#testresult/12e9507d94d5e22",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605441247912,
+          "stop" : 1605441282913,
+          "duration" : 35001
+        }
+      }, {
+        "uid" : "b37c600612dba9e0",
+        "reportUrl" : "https://nadicloud.github.io/uitest/20//#testresult/b37c600612dba9e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605441142370,
+          "stop" : 1605441176290,
+          "duration" : 33920
+        }
+      }, {
+        "uid" : "db2676aca855d586",
+        "reportUrl" : "https://nadicloud.github.io/uitest/19//#testresult/db2676aca855d586",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605441069837,
+          "stop" : 1605441099087,
+          "duration" : 29250
+        }
+      }, {
+        "uid" : "5316d2dd677a4314",
+        "reportUrl" : "https://nadicloud.github.io/uitest/18//#testresult/5316d2dd677a4314",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605375512766,
+          "stop" : 1605375541432,
+          "duration" : 28666
+        }
+      }, {
+        "uid" : "28570ec5e4ebe876",
+        "reportUrl" : "https://nadicloud.github.io/uitest/5//#testresult/28570ec5e4ebe876",
+        "status" : "failed",
+        "statusDetails" : "net::ERR_CONNECTION_REFUSED at http://localhost:8080",
+        "time" : {
+          "start" : 1605354682698,
+          "stop" : 1605354684983,
+          "duration" : 2285
+        }
+      }, {
+        "uid" : "9c657c15ed96dbf6",
+        "reportUrl" : "https://nadicloud.github.io/uitest/4//#testresult/9c657c15ed96dbf6",
+        "status" : "failed",
+        "statusDetails" : "net::ERR_CONNECTION_REFUSED at http://localhost:8080",
+        "time" : {
+          "start" : 1605272548804,
+          "stop" : 1605272551093,
+          "duration" : 2289
+        }
+      }, {
+        "uid" : "4f1d1f0523544f22",
+        "reportUrl" : "https://nadicloud.github.io/uitest/3//#testresult/4f1d1f0523544f22",
+        "status" : "failed",
+        "statusDetails" : "net::ERR_CONNECTION_REFUSED at http://localhost:8080",
+        "time" : {
+          "start" : 1605272057336,
+          "stop" : 1605272059617,
+          "duration" : 2281
+        }
+      }, {
+        "uid" : "5b339ba4ddec5774",
+        "reportUrl" : "https://nadicloud.github.io/uitest/2//#testresult/5b339ba4ddec5774",
+        "status" : "failed",
+        "statusDetails" : "net::ERR_CONNECTION_REFUSED at http://localhost:8080",
+        "time" : {
+          "start" : 1605271922586,
+          "stop" : 1605271924866,
+          "duration" : 2280
+        }
+      }, {
+        "uid" : "f42b022bf0b0d622",
+        "reportUrl" : "https://nadicloud.github.io/uitest/1//#testresult/f42b022bf0b0d622",
+        "status" : "failed",
+        "statusDetails" : "Failed to launch the browser process!\n                [4177:4177:1112/220806.571507:ERROR:browser_main_loop.cc(1434)] Unable to open X display.\n                \n                \n                TROUBLESHOOTING: https://github.com/puppeteer/puppeteer/blob/main/docs/troubleshooting.md\n                ",
+        "time" : {
+          "start" : 1605218886385,
+          "stop" : 1605218886767,
+          "duration" : 382
+        }
+      } ]
+    },
+    "tags" : [ "@TEST-163", "@request-history-filtering-by-file-type" ]
+  },
+  "source" : "7c03bb94833ccf7f.json",
+  "parameterValues" : [ ]
+}
