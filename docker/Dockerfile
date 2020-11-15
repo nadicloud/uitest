@@ -4,4 +4,4 @@ WORKDIR /tests
 
 COPY docker/codecept.entrypoint.sh /usr/local/bin/
 
-ENTRYPOINT ["codecept.entrypoint.sh"]
+ENTRYPOINT ["entrypoint.sh"]
