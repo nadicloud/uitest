@@ -1,0 +1,90 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test passed",
+    "children" : [ {
+      "children" : [ {
+        "name" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+        "uid" : "7dcef91a2e1f7380",
+        "parentUid" : "9c80a0c1559ab612131af073d4d469b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605451473120,
+          "stop" : 1605451502538,
+          "duration" : 29418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "filter the log by file type {\"filter\":\"xls\",\"filteredFile\":\"Xls\"} @TEST-163",
+        "uid" : "c1fa57ac57619474",
+        "parentUid" : "9c80a0c1559ab612131af073d4d469b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605451502575,
+          "stop" : 1605451530495,
+          "duration" : 27920
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "filter the log by file type {\"filter\":\"pptx\",\"filteredFile\":\"Pptx\"} @TEST-163",
+        "uid" : "19d7f1330ad3e03",
+        "parentUid" : "9c80a0c1559ab612131af073d4d469b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605451530523,
+          "stop" : 1605451558660,
+          "duration" : 28137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "filter the log by file type {\"filter\":\"rtf\",\"filteredFile\":\"Rtf\"} @TEST-163",
+        "uid" : "33dfe8e77f27c983",
+        "parentUid" : "9c80a0c1559ab612131af073d4d469b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605451558683,
+          "stop" : 1605451586811,
+          "duration" : 28128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "filter the log by file type {\"filter\":\"png\",\"filteredFile\":\"Png\"} @TEST-163",
+        "uid" : "bd69a5cbfa0ebc18",
+        "parentUid" : "9c80a0c1559ab612131af073d4d469b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605451586844,
+          "stop" : 1605451615003,
+          "duration" : 28159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "filter the log by file type {\"filter\":\"pdf\",\"filteredFile\":\"Pdf\"} @TEST-163",
+        "uid" : "76bbddfeca360c2",
+        "parentUid" : "9c80a0c1559ab612131af073d4d469b3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605451615030,
+          "stop" : 1605451643158,
+          "duration" : 28128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c80a0c1559ab612131af073d4d469b3"
+    } ],
+    "uid" : "bf711d51452b6be752b9682737c0edfd"
+  } ],
+  "name" : "categories"
+}
