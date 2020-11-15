@@ -1,0 +1,11 @@
+version: '2'
+services:
+  codecept:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: codeceptjs
+    user: ${USER_ID}
+    network_mode: host
+    volumes:
+     - ../:/tests
