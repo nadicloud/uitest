@@ -1,0 +1,161 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+    "uid" : "102e2691162c37b1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605451232352,
+      "stop" : 1605451260603,
+      "duration" : 28251
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"xls\",\"filteredFile\":\"Xls\"} @TEST-163",
+    "uid" : "6b17d6dac4b96c1e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605103316609,
+      "stop" : 1605103345281,
+      "duration" : 28672
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"pdf\",\"filteredFile\":\"Pdf\"} @TEST-163",
+    "uid" : "48d9b243bd59c7f2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605103433776,
+      "stop" : 1605103462112,
+      "duration" : 28336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"pptx\",\"filteredFile\":\"Pptx\"} @TEST-163",
+    "uid" : "29bae1be32c0a4e1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605451288774,
+      "stop" : 1605451316877,
+      "duration" : 28103
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"rtf\",\"filteredFile\":\"Rtf\"} @TEST-163",
+    "uid" : "c97a57eab44f68db",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605451316899,
+      "stop" : 1605451345004,
+      "duration" : 28105
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"png\",\"filteredFile\":\"Png\"} @TEST-163",
+    "uid" : "6e8ed89012deedba",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605451345024,
+      "stop" : 1605451372443,
+      "duration" : 27419
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"pptx\",\"filteredFile\":\"Pptx\"} @TEST-163",
+    "uid" : "50f979e1b35bff7c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605103346564,
+      "stop" : 1605103375100,
+      "duration" : 28536
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"rtf\",\"filteredFile\":\"Rtf\"} @TEST-163",
+    "uid" : "4e4fcd3bfc4dc282",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605103375928,
+      "stop" : 1605103404270,
+      "duration" : 28342
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"pdf\",\"filteredFile\":\"Pdf\"} @TEST-163",
+    "uid" : "1736063633a6b55",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605451372470,
+      "stop" : 1605451400571,
+      "duration" : 28101
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+    "uid" : "16a17e17adeef258",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605103287272,
+      "stop" : 1605103315919,
+      "duration" : 28647
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"xls\",\"filteredFile\":\"Xls\"} @TEST-163",
+    "uid" : "ec245d34bb6b5871",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605451260629,
+      "stop" : 1605451288750,
+      "duration" : 28121
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"png\",\"filteredFile\":\"Png\"} @TEST-163",
+    "uid" : "ffecdc03b6f3e74b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605103404923,
+      "stop" : 1605103433165,
+      "duration" : 28242
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "timeline"
+}

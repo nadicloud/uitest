@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type",
+    "children" : [ {
+      "name" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+      "uid" : "102e2691162c37b1",
+      "parentUid" : "817b18c8e839984f231f4c3e5d7f8546",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605451232352,
+        "stop" : 1605451260603,
+        "duration" : 28251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "filter the log by file type {\"filter\":\"xls\",\"filteredFile\":\"Xls\"} @TEST-163",
+      "uid" : "ec245d34bb6b5871",
+      "parentUid" : "817b18c8e839984f231f4c3e5d7f8546",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605451260629,
+        "stop" : 1605451288750,
+        "duration" : 28121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "filter the log by file type {\"filter\":\"pptx\",\"filteredFile\":\"Pptx\"} @TEST-163",
+      "uid" : "29bae1be32c0a4e1",
+      "parentUid" : "817b18c8e839984f231f4c3e5d7f8546",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605451288774,
+        "stop" : 1605451316877,
+        "duration" : 28103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "filter the log by file type {\"filter\":\"rtf\",\"filteredFile\":\"Rtf\"} @TEST-163",
+      "uid" : "c97a57eab44f68db",
+      "parentUid" : "817b18c8e839984f231f4c3e5d7f8546",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605451316899,
+        "stop" : 1605451345004,
+        "duration" : 28105
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "filter the log by file type {\"filter\":\"png\",\"filteredFile\":\"Png\"} @TEST-163",
+      "uid" : "6e8ed89012deedba",
+      "parentUid" : "817b18c8e839984f231f4c3e5d7f8546",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605451345024,
+        "stop" : 1605451372443,
+        "duration" : 27419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "filter the log by file type {\"filter\":\"pdf\",\"filteredFile\":\"Pdf\"} @TEST-163",
+      "uid" : "1736063633a6b55",
+      "parentUid" : "817b18c8e839984f231f4c3e5d7f8546",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605451372470,
+        "stop" : 1605451400571,
+        "duration" : 28101
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "817b18c8e839984f231f4c3e5d7f8546"
+  } ],
+  "name" : "packages"
+}
