@@ -1,0 +1,466 @@
+{
+  "uid" : "ec022e7f8d191cd9",
+  "name" : "filter the log by file type {\"filter\":\"xls\",\"filteredFile\":\"Xls\"} @TEST-163",
+  "fullName" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type.filter the log by file type {\"filter\":\"xls\",\"filteredFile\":\"Xls\"} @TEST-163",
+  "historyId" : "d63f13c699f4f641e74df85c6fbf2570",
+  "time" : {
+    "start" : 1605451584157,
+    "stop" : 1605451611972,
+    "duration" : 27815
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "homePage: clickRequestsHistory ",
+      "time" : {
+        "start" : 1605451593330,
+        "stop" : 1605451595683,
+        "duration" : 2353
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"a[href*='request-history'] > div\"",
+        "time" : {
+          "start" : 1605451593330,
+          "stop" : 1605451595577,
+          "duration" : 2247
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Within \"div[class*='Filters_wrap__']\" ",
+      "time" : {
+        "start" : 1605451595683,
+        "stop" : 1605451600336,
+        "duration" : 4653
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click button[class*='Filters_moreFilters__']",
+        "time" : {
+          "start" : 1605451595683,
+          "stop" : 1605451597896,
+          "duration" : 2213
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I wait for clickable \"//button[contains(.,'+ Add Filter')]\"",
+        "time" : {
+          "start" : 1605451597902,
+          "stop" : 1605451597909,
+          "duration" : 7
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "I click \"//button[contains(.,'+ Add Filter')]\"",
+        "time" : {
+          "start" : 1605451598010,
+          "stop" : 1605451600229,
+          "duration" : 2219
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Within \"div[class*='Filters_popup__']\" ",
+      "time" : {
+        "start" : 1605451600336,
+        "stop" : 1605451602695,
+        "duration" : 2359
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"button:nth-child(1) > p\"",
+        "time" : {
+          "start" : 1605451600336,
+          "stop" : 1605451602592,
+          "duration" : 2256
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Filter to set is: xls",
+        "time" : {
+          "start" : 1605451602594,
+          "stop" : 1605451602594,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "requesthistoryPage: selectFileType \"xls\"",
+      "time" : {
+        "start" : 1605451602695,
+        "stop" : 1605451604946,
+        "duration" : 2251
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I click \"//span[contains(.,'xls')]/parent::label/span[1]/span/input\"",
+        "time" : {
+          "start" : 1605451602695,
+          "stop" : 1605451604945,
+          "duration" : 2250
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "requesthistoryPage: closeFilterPopup ",
+      "time" : {
+        "start" : 1605451604946,
+        "stop" : 1605451606956,
+        "duration" : 2010
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I move cursor to \"#root\"",
+        "time" : {
+          "start" : 1605451604946,
+          "stop" : 1605451606956,
+          "duration" : 2010
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "requesthistoryPage: selectFileType \"xls\"",
+      "time" : {
+        "start" : 1605451606956,
+        "stop" : 1605451611963,
+        "duration" : 5007
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I wait 5",
+        "time" : {
+          "start" : 1605451606956,
+          "stop" : 1605451611962,
+          "duration" : 5006
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "requesthistoryPage: checkFileTypeValues \"Xls\", 3",
+      "time" : {
+        "start" : 1605451611963,
+        "stop" : 1605451611972,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "I check row \"Xls\", 3",
+        "time" : {
+          "start" : 1605451611963,
+          "stop" : 1605451611972,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@TEST-163"
+  }, {
+    "name" : "tag",
+    "value" : "@request-history-filtering-by-file-type"
+  }, {
+    "name" : "suite",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "testClass",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "testMethod",
+    "value" : "filter the log by file type {\"filter\":\"xls\",\"filteredFile\":\"Xls\"} @TEST-163"
+  }, {
+    "name" : "package",
+    "value" : "request-history-filtering-by-file-type @request-history-filtering-by-file-type"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "87cc0f4c149b0184",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605103316609,
+        "stop" : 1605103345281,
+        "duration" : 28672
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test passed",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 15
+      },
+      "items" : [ {
+        "uid" : "c1fa57ac57619474",
+        "reportUrl" : "https://nadicloud.github.io/uitest/26//#testresult/c1fa57ac57619474",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605451502575,
+          "stop" : 1605451530495,
+          "duration" : 27920
+        }
+      }, {
+        "uid" : "ec245d34bb6b5871",
+        "reportUrl" : "https://nadicloud.github.io/uitest/25//#testresult/ec245d34bb6b5871",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605451260629,
+          "stop" : 1605451288750,
+          "duration" : 28121
+        }
+      }, {
+        "uid" : "b676dae6d1fdb45f",
+        "reportUrl" : "https://nadicloud.github.io/uitest/24//#testresult/b676dae6d1fdb45f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605451138902,
+          "stop" : 1605451167023,
+          "duration" : 28121
+        }
+      }, {
+        "uid" : "cffecac93b2babdd",
+        "reportUrl" : "https://nadicloud.github.io/uitest/23//#testresult/cffecac93b2babdd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605447312390,
+          "stop" : 1605447340545,
+          "duration" : 28155
+        }
+      }, {
+        "uid" : "cb9773a09daf1d96",
+        "reportUrl" : "https://nadicloud.github.io/uitest/22//#testresult/cb9773a09daf1d96",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605441329203,
+          "stop" : 1605441357364,
+          "duration" : 28161
+        }
+      }, {
+        "uid" : "35bef25f46cdc77e",
+        "reportUrl" : "https://nadicloud.github.io/uitest/21//#testresult/35bef25f46cdc77e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605441282957,
+          "stop" : 1605441311123,
+          "duration" : 28166
+        }
+      }, {
+        "uid" : "eb8c42c9f58dbc1d",
+        "reportUrl" : "https://nadicloud.github.io/uitest/20//#testresult/eb8c42c9f58dbc1d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605441176329,
+          "stop" : 1605441204507,
+          "duration" : 28178
+        }
+      }, {
+        "uid" : "a8c616d15a73e092",
+        "reportUrl" : "https://nadicloud.github.io/uitest/19//#testresult/a8c616d15a73e092",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605441099116,
+          "stop" : 1605441127311,
+          "duration" : 28195
+        }
+      }, {
+        "uid" : "53975f4f1fd3aedc",
+        "reportUrl" : "https://nadicloud.github.io/uitest/18//#testresult/53975f4f1fd3aedc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605375541477,
+          "stop" : 1605375569672,
+          "duration" : 28195
+        }
+      }, {
+        "uid" : "a05f59f45b0aeac",
+        "reportUrl" : "https://nadicloud.github.io/uitest/5//#testresult/a05f59f45b0aeac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605103316609,
+          "stop" : 1605103345281,
+          "duration" : 28672
+        }
+      }, {
+        "uid" : "f8765958602e3f08",
+        "reportUrl" : "https://nadicloud.github.io/uitest/4//#testresult/f8765958602e3f08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605103316609,
+          "stop" : 1605103345281,
+          "duration" : 28672
+        }
+      }, {
+        "uid" : "48d4a4f33f165530",
+        "reportUrl" : "https://nadicloud.github.io/uitest/3//#testresult/48d4a4f33f165530",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605103316609,
+          "stop" : 1605103345281,
+          "duration" : 28672
+        }
+      }, {
+        "uid" : "1870973f63e297dd",
+        "reportUrl" : "https://nadicloud.github.io/uitest/2//#testresult/1870973f63e297dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605103316609,
+          "stop" : 1605103345281,
+          "duration" : 28672
+        }
+      }, {
+        "uid" : "d43633eb2f5220c2",
+        "reportUrl" : "https://nadicloud.github.io/uitest/1//#testresult/d43633eb2f5220c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605103316609,
+          "stop" : 1605103345281,
+          "duration" : 28672
+        }
+      } ]
+    },
+    "tags" : [ "@TEST-163", "@request-history-filtering-by-file-type" ]
+  },
+  "source" : "ec022e7f8d191cd9.json",
+  "parameterValues" : [ ]
+}
