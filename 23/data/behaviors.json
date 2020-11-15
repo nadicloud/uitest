@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+    "uid" : "f95273803148d5bf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605447283055,
+      "stop" : 1605447312349,
+      "duration" : 29294
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"xls\",\"filteredFile\":\"Xls\"} @TEST-163",
+    "uid" : "cffecac93b2babdd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605447312390,
+      "stop" : 1605447340545,
+      "duration" : 28155
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"pptx\",\"filteredFile\":\"Pptx\"} @TEST-163",
+    "uid" : "1bb4e455f7413b14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605447340565,
+      "stop" : 1605447368096,
+      "duration" : 27531
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"rtf\",\"filteredFile\":\"Rtf\"} @TEST-163",
+    "uid" : "81571520129d03e9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605447368124,
+      "stop" : 1605447395648,
+      "duration" : 27524
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"png\",\"filteredFile\":\"Png\"} @TEST-163",
+    "uid" : "31cfd70874614ef3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605447395676,
+      "stop" : 1605447423855,
+      "duration" : 28179
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "filter the log by file type {\"filter\":\"pdf\",\"filteredFile\":\"Pdf\"} @TEST-163",
+    "uid" : "e4a14aaff6a1321",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1605447423876,
+      "stop" : 1605447451378,
+      "duration" : 27502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}
