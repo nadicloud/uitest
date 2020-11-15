@@ -1,0 +1,61 @@
+[ {
+  "uid" : "f857d542121af75",
+  "name" : "filter the log by file type {\"filter\":\"pdf\",\"filteredFile\":\"Pdf\"} @TEST-163",
+  "time" : {
+    "start" : 1605441211993,
+    "stop" : 1605441239522,
+    "duration" : 27529
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a2795525152c4cf8",
+  "name" : "filter the log by file type {\"filter\":\"pptx\",\"filteredFile\":\"Pptx\"} @TEST-163",
+  "time" : {
+    "start" : 1605441127344,
+    "stop" : 1605441155521,
+    "duration" : 28177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6141f6fea1c93591",
+  "name" : "filter the log by file type {\"filter\":\"rtf\",\"filteredFile\":\"Rtf\"} @TEST-163",
+  "time" : {
+    "start" : 1605441155548,
+    "stop" : 1605441183746,
+    "duration" : 28198
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8c616d15a73e092",
+  "name" : "filter the log by file type {\"filter\":\"xls\",\"filteredFile\":\"Xls\"} @TEST-163",
+  "time" : {
+    "start" : 1605441099116,
+    "stop" : 1605441127311,
+    "duration" : 28195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db2676aca855d586",
+  "name" : "filter the log by file type {\"filter\":\"docx\",\"filteredFile\":\"Docx\"} @TEST-163",
+  "time" : {
+    "start" : 1605441069837,
+    "stop" : 1605441099087,
+    "duration" : 29250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a144188a170f3723",
+  "name" : "filter the log by file type {\"filter\":\"png\",\"filteredFile\":\"Png\"} @TEST-163",
+  "time" : {
+    "start" : 1605441183771,
+    "stop" : 1605441211965,
+    "duration" : 28194
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
